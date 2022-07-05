@@ -31,10 +31,10 @@ int main(){
     printf("\n");
   }
   printf("\n*=*=**=*=**=*=**=*=**=*=**=*=**=*=**=*=*");
-  printf("\nInforme qual será o caminho inicial: ");
+  printf("\nInforme qual serï¿½ o caminho inicial: ");
   scanf("%d",&u-1);
   dijkstra(G,MAX,u);
-
+/*Caio bonito*/ 
   return 0;
 }
 
@@ -81,7 +81,7 @@ void dijkstra(float G[MAX][MAX],int n,int inicial)
     for(i=0;i<n;i++)
       if(i!=inicial){
     	 printf("\n");
-         printf("\nDistância do caminho %d = %.3f",i,distancia[i]);
+         printf("\nDistï¿½ncia do caminho %d = %.3f",i,distancia[i]);
 		 printf("\nCaminho = %d" ,i);
          j=i; 
     		do{
